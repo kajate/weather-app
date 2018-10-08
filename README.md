@@ -1,7 +1,5 @@
 <b>Instructions</b>
 
-TODO: Add here your documentation.
-
 Unzip the files and open the index.html file in a web browser or go directly to:
 
 http://ebbmogardinger.com/coya/
@@ -10,8 +8,6 @@ http://ebbmogardinger.com/coya/
 <br><br>
 
 <b>Impressions</b>
-
-TODO: Add here your impressions and notes.
 
 I started out by breaking it down, so that I had a couple of small steps along the way to complete.
 
