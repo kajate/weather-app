@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  paddin: 0;
+  font-family: Cabin-Regular;
+}
+
+body {
+  background-color: #fcfcfc;
+  background: url(http://ebbmogardinger.com/coya/berlin-background.png) bottom right no-repeat fixed;
+}
+
+p {
+  font-family: Cabin-Regular;
+  display: inline;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-family: Cabin-Bold;
+}
+
+h2 {
+  font-family: Cabin-Regular;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px lightgray;
+  border-radius: 5px;
+  width: 96%;
+  max-width: 604px;
+  position: relative;
+  outline: none;
+  border: none;
+  color: #979797;
+  margin-bottom: 200px;
+  border: 1px solid white;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+input:focus {
+  box-shadow: 2px 2px gray;
+  /* border: 1px solid lightgray; */
+  color: gray;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.container div {
+  min-height: 200px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.wrapper {
+  overflow: hidden;
+  padding-top: 15%;
+  width: 100%;
+  max-width: 604px;
+  margin: 0 auto;
+}
+
+#city-info {
+  padding-top: 3%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#city-weather {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+#city-city,
+#city-country,
+#city-currency,
+#city-cur {
+  color: #878787;
+  display: inline-block;
+}
+
+#city-deg h1 {
+  font-family: Cabin-Regular;
+  color: #00b38b;
+}
+
+#city-desc {
+  color: #878787;
+  text-transform: capitalize;
+  font-family: Cabin-Regular;
+}
+
+#city-country,
+#city-cur {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+#error {
+  min-height: 198px;
+  width: 100%;
+  max-width: 604px;
+  font-family: Cabin-Regular;
+  color: #878787;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 12px;
+}
+
+svg {
+  fill: #00b38b;
+  max-width: 75%;
+}
+
+@media screen and (max-width: 400px) {
+  .container div {
+      min-height: 200px;
+      max-width: 400px;
+  }
+
+  .wrapper {
+      max-width: 804px;
+  }
+
+  input {
+      position: fixed;
+      width: 80%;
+      max-width: 804px;
+      top: 85%;
+      left: 25px;
+  }
+
+  svg {
+      fill: #00b38b;
+      max-width: 100%;
+  }
+
+  #city-weather {
+      float: none;
+      margin-top: 20%;
+  }
+
+  #city-info {
+      padding-top: 2.5%;
+      overflow: hidden;
+      margin-bottom: -30px;
+  }
+
+  #city-city,
+  #city-country,
+  #city-currency,
+  #city-cur {
+      display: inline-block;
+  }
+
+  #city-name {
+      padding-left: 20px;
+      margin-top: 20px;
+      color: #878787;
+      position: absolute;
+      top: 0;
+  }
+
+  #city-deg,
+  #city-desc {
+      text-align: center;
+  }
+
+  #city-currency {
+      margin-right: 5px;
+  }
+
+  #city-money {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #error {
+      min-height: 200px;
+      width: 100%;
+      max-width: 604px;
+      font-family: Cabin-Regular;
+      color: #878787;
+      margin: 0 auto;
+      padding: 20px;
+      font-size: 12px;
+  }
+}
+
+@font-face {
+  font-family: "Cabin-Regular";
+  src: url("cabin/Cabin-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cabin-Bold";
+  src: url("cabin/Cabin-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Cabin-Italic";
+  src: url("cabin/Cabin-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Cabin-Medium";
+  src: url("cabin/Cabin-Medium.ttf");
+}
