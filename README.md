@@ -1,6 +1,6 @@
 <b>Instructions</b>
 
-Unzip the files and open the index.html file in a web browser or go directly to:
+Open the index.html file in a web browser or go directly to:
 
 http://ebbmogardinger.com/coya/
 
