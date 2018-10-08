@@ -1,4 +1,15 @@
-Impressions
+<b>Instructions</b>
+
+TODO: Add here your documentation.
+
+Unzip the files and open the index.html file in a web browser or go directly to:
+
+http://ebbmogardinger.com/coya/
+
+(optimized for Chrome and iPhone)
+<br><br>
+
+<b>Impressions</b>
 
 TODO: Add here your impressions and notes.
 
